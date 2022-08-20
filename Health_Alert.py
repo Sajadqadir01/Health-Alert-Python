@@ -6,8 +6,8 @@ while True:
     for item in filelist:
         notification.notify(app_icon=item,
                             title="alert!",
-                            message="watch tv",
+                            message="this means it's been a while that you were using computer take a break and then come back",
                             app_name="health",
-                            timeout=5,
+                            timeout=15,
                             )
-        sleep(6)
+        sleep(5400)
